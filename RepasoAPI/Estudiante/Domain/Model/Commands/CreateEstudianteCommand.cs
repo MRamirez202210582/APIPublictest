@@ -1,0 +1,2 @@
+﻿namespace RepasoAPI.Estudiante.Domain.Model.Commands;
+public record CreateEstudianteCommand(string NombreUsuario, string IdSede, string IdCarrera, string NombreEstudiante, string Edad, string Dni, string Correo, string Celular);
